@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+
+}
+.box2 {
+    background-color:#E52B6C;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+.list-box{
+    background-color: green;
+    /* giup phan tu me tinh duoc chieu cao */
+    overflow: auto;
+}
+.box1:hover span{
+    /* an phan tu */
+    display: block;
+}
+
+.box2:hover{
+    background-color:black;
+}
+
+span{
+    display: none;
+}
+
+video{
+    width: 20%;  
+}
+
+audio{
+    width: 20%;
+    height: 30px;
+}
+
+
+

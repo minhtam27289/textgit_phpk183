@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.header{
+    background-color: black;
+    height: 60px;
+}
+#shopcart {
+    color:#FFFFFF;
+}
+#timkiem {
+    margin-top: 7px;
+    height: 26px;
+}
+#timkiem input{
+    margin-left: -15px;
+    height: 26px;
+    width: 180px;
+    border-radius: 5px ;
+}
+#timkiem button{
+    background-color: red;
+    height: 26px;
+    width: 80px;
+    border-radius: 5px ;
+}
+#logo{
+    margin-top: 7px;
+}
+#shopcart{
+    margin-top: 20px;
+}
+#shopcart span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+
+}
+body{
+    background-color: #E7ECF4 !important;
+}
+#menu .container {
+    background-color: red; 
+
+}
+
+.ke-phai{
+    border-right: 1px solid black;
+}
+.no-padding{
+    padding: 0px;
+}
+#menu .h50{
+    height: 50px;
+}
+.navbar-nav a{
+    padding: 15px !important;
+}
+.navbar-nav li:hover{
+    background-color:  greenyellow;
+}
+.main  {
+    background-color: #E7ECF4;
+    margin-top: 10px;
+}
+img {
+    max-width: 100%;
+}
+#banner img{
+    margin-bottom: 10px;
+}
+.khoi1 {
+    width: 236px;
+    height: 284px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.khoi1 img{
+    width: 120px;
+    height: 148px;
+    margin-top: 12px;
+}
+.khoi1 .mg-25{
+    margin-top: 25px;
+}
+#product {
+    margin-top: 18px;
+}
+#product h3{
+    font-size: 18px;
+    margin-bottom: 36px;
+    margin-top: 30px;
+}
+
+.fix-padding-col {
+    padding: 0px 5px !important;
+    margin: 5px 0px;
+}
+.fix-row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#newproduct h3{
+    font-size: 18px;
+    margin-bottom: 36px;
+    margin-top: 30px;
+}
+.bbt-15{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+#footer{
+    background-color: white;
+    padding-top: 32px;
+}
+#footer-bottom{
+    background-color: black;
+    padding-top: 12px;
+}

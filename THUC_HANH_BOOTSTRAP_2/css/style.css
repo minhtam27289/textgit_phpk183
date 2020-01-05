@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: #E7ECF4;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #222;
+    padding: 11px 0px;
+}
+
+#search input {
+    margin-right: -5px;
+    padding-left: 12px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search input::placeholder {
+    color: #222;
+
+}
+
+
+#search button {
+    height: 30px;
+    width: 78px;
+    border: none;
+    background-color: #EB1F27;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#sub-cart span {
+    display: inline-block;
+    background-color: #EB1F27;
+    height: 30px;
+    width: 30px;
+    /* bo tron khi co width va height  */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* inline trung tinh - se khong thay doi duoc chieu cao , ngang 
+    a, span, i , b,u - la nhung the trung tinh
+    the block (div, h1, p, ul-ui, ol) thay doi duoc chieu cao, ngang
+    inline block - khong chieu nhung thay doi duoc chieu cao va chieu ngang
+
+*/
+.mau-1 {
+    background-color: #EB1F27;
+}
+
+.text-menu {
+    display: none;
+}
+
+.ke-phai {
+    border-right: 1px solid black;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+nav a {
+    padding: 14px !important;
+}
+
+nav li:hover {
+    background-color: greenyellow;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+#banner img {
+    margin-bottom: 10px;
+}
+
+.info h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    background-color: white;
+    padding: 23px 0;
+}
+
+#footer-bottom {
+    background-color: #1D1E24;
+    color: white;
+    padding: 13px 0;
+}
+
+#footer-bottom p {
+    margin-bottom: 0px;
+}
+
+/* css product */
+.product {
+    background-color: white;
+    padding: 10px 23px 32px 23px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.product span {
+    color: #EB1F27;
+}
+
+.product img {
+    width: 125px;
+    height: 162px;
+    margin-bottom: 15px;
+}
+
+.fix-padding-col {
+    padding: 0px 5px !important;
+    margin: 5px 0px;
+}
+
+.fix-row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-product h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,63 @@
+<ten-the style="thuộc tinhs1:giá tri1;thuoctinh2:giatri2;....">noi dung bị tác động bởi thẻ</ten-the> -->
+div{
+    color: orange;
+    font-size: 40px;
+
+}
+/* (#) dành cho id
+   (.) dành cho class
+
+*/
+/* #vietpro-3{
+    color: red;
+    font-size: 40px;
+}
+.vietpro-2{
+    color:blue;
+    font-size: 40px;
+}
+.size-10{
+    font-size: 10px;
+}
+.size-50{
+    font-size: 50px;
+} */
+
+#vietpro{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    border: 10px solid red;
+    margin-bottom: 30px;
+    text-align: center;
+    /* căn giữa nội dung ta cho line-height=height*/
+    line-height:100px;
+    font-weight: bold;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    background-color:green;
+    box-sizing: border-box;
+    border-top: 10px solid red;
+}
+
+
+
+
+
+
+
